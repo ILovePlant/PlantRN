@@ -1,0 +1,10 @@
+{
+    "ios": {
+        "appId": 5099,
+        "appKey": "aefZmUoQjE0aOUWonlK5UTlXEXDS5etu"
+    },
+    "android": {
+        "appId": 5100,
+        "appKey": "BqQegp41JgmIG5RNVhKBXnBkxn9WoxMC"
+    }
+}
