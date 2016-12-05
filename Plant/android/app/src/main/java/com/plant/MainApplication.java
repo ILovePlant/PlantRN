@@ -10,6 +10,7 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
+import com.horcrux.svg.RNSvgPackage;
 
 import cn.reactnative.modules.update.UpdateContext;
 
@@ -33,7 +34,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new UpdatePackage()
+            new UpdatePackage(),
+            new RNSvgPackage()
       );
     }
   };

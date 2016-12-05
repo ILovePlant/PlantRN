@@ -42,3 +42,6 @@ android/app/libs
 
 #React Native Pushy
 .update
+
+#Android APK
+*.apk
